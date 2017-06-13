@@ -89,3 +89,9 @@ Known issues
 The `Page404Handler` script should be improved in the context of multi-domains
 by reading its configuration from RealURL. PR are welcome. [@see]
 Page404Handler.php
+
+Todos
+-----
+
+\* The internal data source of EXT:wise_error_page must be flushed when cache is
+cleared
