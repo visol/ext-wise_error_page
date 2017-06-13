@@ -10,10 +10,6 @@ bit contradictory but it was made possible while supporting multi-domains and
 multi-language. The extension works hands in hands with `EXT:nc_staticfilecache`
 whose purposes is to statically cache pages.
 
-```
-domain.tld/?type=1497284951
-```
-
 Installation
 ------------
 
