@@ -1,0 +1,12 @@
+{
+    "name": "visol/wise-error-page",
+    "description": "Speed up 404 error pages",
+    "type": "typo3-cms-extension",
+    "keywords": [
+        "TYPO3 CMS",
+        "404"
+    ],
+    "homepage": "https://github.com/visol/wise_error_page",
+    "license": "GPL-2.0+",
+    "version": "1.4.2"
+}

@@ -1,0 +1,32 @@
+######################################
+# Ajax request configuration
+######################################
+page_1497284951 = PAGE
+page_1497284951 {
+    typeNum = 1497284951
+    config {
+        xhtml_cleaning = 0
+        admPanel = 0
+        disableAllHeaderCode = 1
+        additionalHeaders = Content-type:application/json
+
+        # Configuration if you would like to fix prepended domain.
+        # Otherwise typolink get prepended with current domain.
+        #absRefPrefix = http://domain.tld/
+    }
+    10 = COA_INT
+    10 {
+        10 = USER_INT
+        10 {
+            userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+            vendorName = Visol
+            extensionName = WiseErrorPage
+            pluginName = Pi1
+            switchableControllerActions {
+                ContentRenderer {
+                    1 = render
+                }
+            }
+        }
+    }
+}
