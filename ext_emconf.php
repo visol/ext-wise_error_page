@@ -9,6 +9,7 @@ $EM_CONF[$_EXTKEY] = [
 	'author_email' => 'fabien.udriot@visol.ch',
 	'author_company' => 'Visol',
     'autoload' => [
+    'version' => '0.9.0-dev',
         'psr-4' => ['Visol\\WiseErrorPage\\' => 'Classes']
     ],
 	'constraints' =>
