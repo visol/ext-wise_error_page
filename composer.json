@@ -6,7 +6,7 @@
         "TYPO3 CMS",
         "404"
     ],
-    "homepage": "https://github.com/visol/wise_error_page",
+    "homepage": "https://github.com/visol/ext-wise_error_page",
     "license": "GPL-2.0+",
     "version": "1.4.2"
 }
