@@ -8,5 +8,7 @@
     ],
     "homepage": "https://github.com/visol/ext-wise_error_page",
     "license": "GPL-2.0+",
-    "version": "1.4.2"
+    "suggest": {
+        "typo3-ter/nc-staticfilecache": "Allow 404 page to be statically cached"
+    }
 }
