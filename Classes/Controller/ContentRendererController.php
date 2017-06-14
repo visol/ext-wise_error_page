@@ -33,12 +33,6 @@ class ContentRendererController extends ActionController
             ->setArguments(['L' => $language])
             ->build();
 
-//        foreach ($this->getLanguages() as $language) {
-//            $urls[$language['uid']] = $uriBuilder
-//                ->setArguments(['L' => $language['uid']])
-//                ->build();
-//        }
-
         return json_encode(['url' => $url]);
     }
 
