@@ -2,6 +2,14 @@
 
 /**
  * Class Page404Handler
+ *
+ * This class is meant to be used by TYPO3 in the "pageNotFound_handling" configuration key:
+ *
+ * 'pageNotFound_handling' => 'USER_FUNCTION:typo3conf/ext/wise_error_page/Classes/Page404Handler.php:',
+ *
+ * Note the script is standalone and can be directly used by the web server. Example for Nignx:
+ *
+ * error_page 404  /typo3conf/ext/wise_error_page/Classes/Page404Handler.php;
  */
 class Page404Handler
 {
